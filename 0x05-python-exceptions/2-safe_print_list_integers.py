@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+# Author: Francis Onyach <franblog7@gmail.com>
+
 def safe_print_list_integers(my_list=[], x=0):
     """Print the first x elements of a list that are integers.
 
