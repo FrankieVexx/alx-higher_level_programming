@@ -1,6 +1,8 @@
 #!/usr/bin/python3
+# 1-square.py
+# Francis Onyach <franblg7@gmail.com>
+"""Define a class Square."""
 
-# Done by: Francis Onyach <franblog7@gmail.com>
 
 class Square:
     """Represent a square."""

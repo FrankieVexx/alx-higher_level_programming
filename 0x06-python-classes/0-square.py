@@ -1,9 +1,9 @@
 #!/usr/bin/python3
+# 0-square.py
+# Francis Onyach <Franblog7@gmail.com>
+"""Define a class Square."""
 
-# Done by: Francis Onyach <franblob7@gmail.com>
-
-"""Define an empty class square."""
 
 class Square:
-    """This represensts a square."""
+    """Represent a square."""
     pass
