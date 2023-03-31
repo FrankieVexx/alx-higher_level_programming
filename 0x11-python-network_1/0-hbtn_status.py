@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-""" a python script to open a url """
-
-from urllib.request import urlopen
+"""Fetches https://alx-intranet.hbtn.io/status using urllib"""
 
 if __name__ == "__main__":
-    with urlopen("https://alx-intranet.hbtn.io/status") as f:
-        body = f.read()
+    from urllib import request
+    url = 'https://alx-intranet.hbtn.io/status'
+    with request.urlopen(url) as response:
+        data = response.read()
         print('Body response:')
-        print(f'    - type: {type(body)}')
-        print(f'    - content: {body}')
-        print(f'    - utf8 content: {body.decode("utf-8")}')
+        print(f'\t- type: {type(data)}')
+        print(f'\t- content: {data}')
+        print(f'\t- utf8 content: {data.decode("UTF-8")}')
