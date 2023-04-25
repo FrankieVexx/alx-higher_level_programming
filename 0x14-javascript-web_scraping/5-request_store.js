@@ -1,5 +1,4 @@
 #!/usr/bin/node
-
 // a script to get the contents of a web page
 
 const request = require('request');
