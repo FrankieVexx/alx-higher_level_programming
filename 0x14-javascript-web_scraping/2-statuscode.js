@@ -1,5 +1,5 @@
 #!/usr/bin/node
-// a script to print status code
+// a script to print status code on the console
 
 const request = require('request');
 
